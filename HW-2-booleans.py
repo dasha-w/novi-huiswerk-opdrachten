@@ -14,7 +14,8 @@ print(not True)     # Het resultaat is: False
 #
 # Verwachte uitkomst is de boolean waarde: True
 # ==========================================
-
+print(3 < 5 < 10)
+print(5 > 10 or 5 ==5)
 
 
 # ==========================================
@@ -24,7 +25,7 @@ print(not True)     # Het resultaat is: False
 #
 # Verwachte uitkomst: True
 # ==========================================
-
+print(5 < 7 < 12 and 7 != 10)
 
 
 # ==========================================
@@ -39,7 +40,8 @@ print(not True)     # Het resultaat is: False
 x = 5
 y = -4
 
-
+print(0 <= x < 10)
+print(0 <= y < 10)
 
 
 # ==========================================
@@ -52,9 +54,12 @@ y = -4
 # D. print(True or False or False)
 # E. print(not True or False or not True)
 # ==========================================
-
-
-
+print("00000")
+print(True or 1 / 0)
+print(True or False)
+print(False and True and True)
+print(True or False or False)
+print(not True or False or not True)
 # ==========================================
 # Opgave 6:
 # Evalueer of een nummer even of oneven is.
@@ -62,7 +67,9 @@ y = -4
 # Schrijf de evaluatie die bepaalt of het nummer even of oneven is. Print de string 'Even' als het nummer even is, anders print 'Oneven'.
 # Tip: Als het nummer gedeeld door 2 geen restwaarde heeft, dan is het even. Anders is het oneven.
 # ==========================================
-
+nummer = 42
+restwaarde = "Even" if nummer %2 == 0 else "Oneven"
+print(restwaarde)
 
 
 # ==========================================
@@ -78,7 +85,8 @@ y = -4
 # ==========================================
 
 uur = 9
-
+begroeting = "Goedemorgen" if uur < 12 else "Goedemiddag" if uur < 18 else "Goedeavond"
+print(begroeting)
 
 # =========================================
 # Opgave 8:
@@ -88,5 +96,8 @@ uur = 9
 #
 # Verwachte uitkomst bij invoer van getallen 2 en 3:  De som van 2 en 3 is : 5
 # ==========================================
-
-
+num1 = float(input('Voer eerste getal in :'))
+num2 = float(input('Voer tweede getal in :'))
+som = num1 + num2
+product = num1 * num2
+print(f'De som van {num1} en {num2} is: {som}')

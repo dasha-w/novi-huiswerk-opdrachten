@@ -3,8 +3,8 @@
 # Voer je naam in met de input() methode en print daarna je naam in de console.
 # ==========================================
 
-naam = input('Voer je naam in: ')  # voorbeeld invoer: Bart
-print('Je naam is: ', naam)  # Het resultaat is: Je naam is: Bart
+#naam = input('Voer je naam in: ')  # voorbeeld invoer: Bart
+#print('Je naam is: ', naam)  # Het resultaat is: Je naam is: Bart
 
 
 # ==========================================
@@ -12,7 +12,9 @@ print('Je naam is: ', naam)  # Het resultaat is: Je naam is: Bart
 # Gegeven is het woord 'Python'. Schrijf een programma dat de gebruiker vraagt om input. Als de gebruiker het woord 'Python' invoert, print dan de boolean True, anders print False.
 # ==========================================
 
-
+pyth = input('Voer een woord in: ')
+out = True if pyth == "Python" else False
+print(out)
 
 # ==========================================
 # Opgave 2:

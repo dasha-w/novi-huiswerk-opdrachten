@@ -20,7 +20,10 @@ print(woord * aantal_keer)  # Het resultaat is: Python Python Python
 # Verwachte uitkomst: Bello is 4 jaar. Dit is 28 jaar in mensenjaren.
 # ==========================================
 
-
+leeftijd_hond = 4
+naar_mensen_jaren = 7
+mensen_jaren = leeftijd_hond * naar_mensen_jaren
+print(f'Bello is {leeftijd_hond} jaar. Dit is {mensen_jaren} jaar in mensenjaren.')
 
 # ==========================================
 # Opgave 2:
@@ -32,6 +35,9 @@ variabele_een = '5'
 variabele_twee = 1 / 1
 variabele_drie = 'Python' * 3
 
+print(type(variabele_een)) #string
+print(type(variabele_twee)) #float
+print(type(variabele_drie)) #string
 
 
 # ==========================================
@@ -45,7 +51,10 @@ variabele_drie = 'Python' * 3
 # d.     none = ‘something’
 # ==========================================
 
-
+And = 'something'
+#while kan niet
+Break = 'something'
+none = 'something'
 
 # ==========================================
 # Opgave 4:
@@ -58,7 +67,9 @@ variabele_drie = 'Python' * 3
 # Denk ook aan de schrijf conventies voor variabele namen.
 # ==========================================
 
-
+#totaal_aantal_bananen
+#minimale_lengte_attractie
+#grootste_getal_rij
 
 # ==========================================
 # Opgave 5:
@@ -66,7 +77,7 @@ variabele_drie = 'Python' * 3
 # Maak van het getal 3.14 een 3. Je mag alleen de typecast functie gebruiken
 # ==========================================
 
-
+print(int(3.14))
 
 # ==========================================
 # Opgave 6:
@@ -80,7 +91,7 @@ variabele_drie = 'Python' * 3
 mijn_variabele = 5
 
 
-print(mijn_variabele * 3)  # Het resultaat is: 555
+print(str(mijn_variabele) * 3)  # Het resultaat is: 555
 
 
 
@@ -91,10 +102,14 @@ print(mijn_variabele * 3)  # Het resultaat is: 555
 
 # Haal de # weg voor de print statements om de code te testen
 
-# print(int('1490.99'))
+#print(int('1490.99'))
+#foutmelding
 
-# print(float(12))
+#print(float(12))
+#ok
 
-# print(int('1plus1'))
+#print(int('1plus1'))
+#fout
 
-# print(str(25E10))
+#print(str(25E10))
+#ok
