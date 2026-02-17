@@ -24,9 +24,17 @@ if get1 <= get2:
 # 3 is kleiner dan 5
 # 5 is niet kleiner dan 5
 
-
+if get1 < get2:
+    print(f'{get1} is kleiner dan {get2}')
+if get1 >= get2:
+    print(f'{get1} is niet kleiner dan {get2}')
 
 # Kijk of een string gelijk is aan een andere string
 # John is gelijk aan John
 # John is niet gelijk aan Doeg
 
+name = "John"
+test = name
+print(name is test)
+print(name == "John")
+print(name == "Doe")

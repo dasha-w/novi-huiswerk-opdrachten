@@ -31,7 +31,8 @@ print(10%3)
 #niet helemaal af, maar je snapt
 getal1= int(input("getal 1:"))
 getal2=int(input("getal 2:"))
-print(f'{str(getal1)} + {str(getal2)} =', getal1 + getal2, '\n',
-      getal1 - getal2,
-      getal1 * getal2,
-      getal1 / getal2)
+
+print(f'{getal1} + {getal2} = {getal1 + getal2}\n'
+      f'{getal1} - {getal2} = {getal1 - getal2}\n'
+      f'{getal1} * {getal2} = {getal1 * getal2}\n'
+      f'{getal1} / {getal2} = {getal1 / getal2}\n')
